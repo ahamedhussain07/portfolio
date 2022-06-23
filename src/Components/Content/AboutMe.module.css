@@ -1,0 +1,57 @@
+.aboutMe {
+  height: auto;
+
+  width: 100%;
+  height: 100vh;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80");
+  background-size: cover;
+  background-position: center;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+    font-size: 4rem;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.skill{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.skill span{
+    text-decoration: underline;
+    text-decoration-color: #00a6eb;
+    color:#00a6eb;
+    position: relative;
+    bottom: 70px;
+    left: 58px;
+}
+
+@media (max-width: 480px){
+  .name{
+    font-size: 2.5rem;
+  }
+  .skill{
+    
+    font-size: 1.5rem;
+}
+.skill span{
+  
+  position: relative;
+  bottom: 51px;
+  left: 42px;
+}
+}

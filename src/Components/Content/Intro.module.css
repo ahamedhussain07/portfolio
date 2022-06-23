@@ -1,0 +1,142 @@
+.intro {
+  padding: 10px;
+  /* background:#f5f8fd; */
+}
+
+.intro h2 {
+  border-bottom: 2px solid #00a6eb;
+  color: #173b6c;
+  font-size: 32px;
+  font-weight: bold;
+  display: inline;
+}
+
+.photoAndBio {
+  display: flex;
+  flex-direction: row;
+}
+
+.photoAndBio img {
+  width: 400px;
+  height: 400px;
+}
+
+.bio {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+}
+
+.bio ul {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width: 964px) {
+  .photoAndBio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  .photoAndBio img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .bio {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+  }
+
+  .bio ul {
+    height: 60px;
+    margin: 20px 10px;
+    display: flex;
+    line-height: 2rem;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+
+    list-style: none;
+    padding: 0;
+  }
+  .qualification {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .intro p {
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+}
+
+.bio span {
+  font-weight: 700;
+  font-size: 14;
+}
+
+.qualification {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+.qualification .listDesign {
+  border-left: 2px solid #1f5297;
+
+  padding: 0 0 10px 10px;
+}
+
+.qualificationItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.listDesign div {
+  font-style: italic;
+}
+
+@media (max-width: 480px) {
+  .intro p {
+   
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Space Grotesk', sans-serif;
+    /* font-weight: 400; */
+  }
+  .photoAndBio img,
+  .qualification img {
+    width: 320px;
+    height: 300px;
+  }
+  .qualification img {
+    width: 320px;
+    height: 270px;
+  }
+  .bio ul {
+    height: 85px;
+    margin: 20px 10px;
+    display: flex;
+    line-height: 2.5rem;
+  }
+  .qualification p{
+    font-size: 1rem;
+    padding-left: 0;
+  }
+  .listDesign{
+    height: 200px;
+    
+  }
+}

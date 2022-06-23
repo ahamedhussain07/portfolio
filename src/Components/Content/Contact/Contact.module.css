@@ -1,0 +1,90 @@
+.contact {
+  display: flex;
+  margin: 10px;
+  margin-bottom: 100px;
+  justify-content: space-evenly;
+}
+
+.location,
+.emailSend {
+  padding: 30px;
+  background: #fff;
+  width: 40%;
+  box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+  margin-left: 30px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+}
+
+.location span {
+  font-size: 20px;
+  color: #149ddd;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #dff3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.location span:hover {
+  background: #007aff;
+  color: #fff;
+}
+
+.location h3 {
+  display: inline;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+@media (max-width: 964px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 95%;
+    margin-bottom: 100px;
+    height: 900px;
+    /* justify-content: space-evenly; */
+  }
+  .location,
+  .emailSend {
+    padding: 25px;
+    background: #fff;
+    width: 80%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+  }
+  .location {
+    display: flex;
+    /* flex-direction: column; */
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .location,
+  .emailSend {
+    margin-left: 5px;
+  }
+  .contactText{
+    font-size: 0.7rem;
+  }
+  .location a {
+    margin-left: 0;
+  }
+}

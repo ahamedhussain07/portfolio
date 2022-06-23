@@ -1,0 +1,158 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.header .name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.header img {
+ 
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: 10px auto;
+  display: block;
+  width: 120px;
+  border: 8px solid #2c2f3f;
+}
+
+.socialIcons {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    /* left: -100%;  */
+    left: 0;
+    background-color: #040b14;
+    width: 20%;
+    color: #fff;
+}
+
+.list span .active {
+    color: #00a6eb;
+}
+
+.footer{
+    position: relative;
+    top: 75px;
+    text-align: center;
+}
+
+.socialIcons a{
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 18px;
+    transition: 0.3s;
+}
+
+.socialIcons a:hover{
+    background: #00a6eb;
+}
+
+
+.list{
+    padding-top: 30px;
+}
+.list ul {
+    height: 250px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.list a {
+  display: flex;
+}
+
+.list span{
+    font-size: 15px;
+    padding-left: 8px;
+    color:#a8a9b4;
+    text-align: center;
+}
+
+a.active span {
+    color: #00a6eb;
+    background-color: white;
+}
+
+.list span:hover{
+    color: #fff;
+}
+
+@media (max-width: 964px){
+    .footer{
+        position: relative;
+        top: 200px;
+    }
+    .header img {
+ 
+        border: 3px solid black;
+        border-radius: 50%;
+        margin: 10px auto;
+        display: block;
+        width: 220px;
+        border: 8px solid #2c2f3f;
+      }
+      .header .name {
+        font-size: 1.7rem;
+        
+      }
+      .socialIcons a{
+        font-size: 24px;
+        display: inline-block;
+        background: #212431;
+        color: #fff;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 4px;
+        border-radius: 50%;
+        text-align: center;
+        width: 40px;
+        height: 22px;
+        transition: 0.3s;
+    }
+
+    .list ul {
+    height: 320px;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      
+    }
+    .list span{
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+  .footer{
+    position: relative;
+    top: 100px;
+}
+}

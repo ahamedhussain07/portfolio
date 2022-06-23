@@ -1,0 +1,25 @@
+.grid-container,.grid-container-mobile {
+  /* display: grid;
+    grid-template-columns: 25% 75%; */
+  overflow-x: hidden;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.grid-item-1 {
+
+  width: 20%;
+
+}
+
+.grid-item-2 {
+  width: 80%;
+}
+
+.grid-container-mobile .grid-item{
+  width: 100%;
+}
+
+
