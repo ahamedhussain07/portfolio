@@ -66,7 +66,7 @@ const Intro = () => {
         </p>
         <div className={classes.photoAndBio}>
           <div data-aos="fade-right">
-            <img src={photo} alt="My Photo" />
+            <img src={photo} alt="My face" />
           </div>
           <div data-aos="fade-left">
             <h2>Bio</h2>
@@ -141,7 +141,7 @@ const Intro = () => {
               </div>
             </div>
             <div data-aos="fade-left">
-              <img src={qualifiPhoto}  />
+              <img src={qualifiPhoto}  alt="qualification"/>
             </div>
           </div>
         </div>

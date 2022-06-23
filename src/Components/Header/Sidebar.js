@@ -45,7 +45,7 @@ const Navbar = () => {
     <>
       <div className={classes.navbar}>
         <header className={classes.header}>
-          <img src={photo} alt="my profile pic" />
+          <img src={photo} alt="my profile " />
 
           <div className={classes.name}>Ahamed Hussain</div>
           <div className={classes.socialIcons}>

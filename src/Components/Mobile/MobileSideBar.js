@@ -64,7 +64,7 @@ const MobileSideBar = () => {
       </div>
       <nav className={sidebar ? "navbar active" : "navbar"}>
         <header className={classes.header}>
-          <img src={photo} alt="my profile pic" />
+          <img src={photo} alt="myface" />
 
           <div className={classes.name}>Ahamed Hussain</div>
           <div className={classes.socialIcons}>

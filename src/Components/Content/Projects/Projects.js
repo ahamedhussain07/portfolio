@@ -16,7 +16,7 @@ const Projects = () => {
       <div className={classes.project}>
         <div className={classes.projectItem1}>
           <div data-aos="fade-right">
-            <img src={groceryImg} alt="groceryImg" />
+            <img src={groceryImg} alt="grocery" />
           </div>
           <div data-aos="fade-left"> 
             <p style={{ paddingLeft: "20px" }}>
@@ -49,12 +49,12 @@ const Projects = () => {
             </p>
           </div>
           <div data-aos="fade-left">
-            <img src={socialImg} alt="groceryImg" />
+            <img src={socialImg} alt="grocery2" />
           </div>
         </div>
         <div className={classes.projectItem3} data-aos="fade-right">
           <div>
-            <img src={campImg} alt="groceryImg" />
+            <img src={campImg} alt="grocery3" />
           </div>
           <div data-aos="fade-left">
             <p style={{ paddingLeft: "20px" }}>
