@@ -88,9 +88,9 @@ const Navbar = () => {
           </nav>
         </IconContext.Provider>
         <footer className={classes.footer}>
-          Copyright AH <br />
+          Copyright @ 2022 <br />
           <span>
-            Designed By <span style={{ color: "#00a6eb" }}>Hussain</span>
+ <span style={{ color: "#00a6eb" }}>Ahamed Hussain</span>
           </span>
         </footer>
       </div>

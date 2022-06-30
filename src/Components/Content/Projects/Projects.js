@@ -1,8 +1,11 @@
 import classes from "./Projects.module.css";
 
-import groceryImg from "../../../Assets/grocery.png";
-import socialImg from "../../../Assets/socialmedia.png";
-import campImg from "../../../Assets/camp2.png";
+import groceryImg from "../../../Assets/arProject.png";
+import socialImg from "../../../Assets/social1.png";
+import campImg from "../../../Assets/yelpcamp.png";
+// import groceryImg from "../../../Assets/grocery.png";
+// import socialImg from "../../../Assets/socialmedia.png";
+// import campImg from "../../../Assets/camp2.png";
 
 const Projects = () => {
   return (
